@@ -10,6 +10,12 @@ body {
     color: #f1c40f;
     font-weight: 1000;
 }
+.quote {
+    color: #f1c40f;
+    margin-left: 5em;
+    font-weight: 700;
+    font-style: italic;
+}
 
 h1 {
     color: #16a085;
