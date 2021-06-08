@@ -1,0 +1,30 @@
+li {
+    background: #01afff;
+    text-align: center;
+    transform: rotateX(51deg) rotateZ(43deg);
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    border-radius: 32px;
+    box-shadow: 1px 1px 0 1px #f9f9fb,
+    -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+    28px 28px 28px 0 rgba(34, 33, 81, 0.25);
+    transition: .4s ease-in-out transform,
+    .4s ease-in-out box-shadow;
+}
+
+li:hover {
+    transform: translate3d(0px, -16px, 0px) rotateX(51deg) rotateZ(53deg);
+    box-shadow: 1px 1px 0 1px #f9f9fb,
+    -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+    54px 54px 28px -10px rgba(34, 33, 81, 0.15);
+}
+
+li a {
+    font-family: "Helvetica", serif;
+    font-weight: 1000;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 100px;
+}
+
