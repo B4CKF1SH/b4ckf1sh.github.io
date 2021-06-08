@@ -1,51 +1,18 @@
-
-div#nav {
-    height: 100%;
-    width: 180px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-}
-
-#main {
-    margin-left: 180px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-}
-#nav li {
-    background: #01afff;
+body {
     text-align: center;
-    transform: rotateX(51deg) rotateZ(43deg);
-    width: 100px;
-    height: 100px;
-    transform-style: preserve-3d;
-    border-radius: 32px;
-    box-shadow: 1px 1px 0 1px #f9f9fb,
-    -1px 0 28px 0 rgba(34, 33, 81, 0.01),
-    28px 28px 28px 0 rgba(34, 33, 81, 0.25);
-    transition: .4s ease-in-out transform,
-    .4s ease-in-out box-shadow;
+    font-family: Arvo, serif;
+    background: #000000;
+    color: #ecf0f1;
+
 }
 
-#nav ul {
-    list-style: none;
-}
-
-#nav li:hover {
-    transform: translate3d(0px, -16px, 0px) rotateX(51deg) rotateZ(53deg);
-    box-shadow: 1px 1px 0 1px #f9f9fb,
-    -1px 0 28px 0 rgba(34, 33, 81, 0.01),
-    54px 54px 28px -10px rgba(34, 33, 81, 0.15);
-}
-
-#nav li a {
-    font-family: "Helvetica", serif;
+.symbol {
+    color: #f1c40f;
     font-weight: 1000;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-    line-height: 100px;
+}
+
+h1 {
+    color: #16a085;
+
 }
 
