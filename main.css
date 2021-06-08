@@ -1,4 +1,20 @@
-li {
+
+div#nav {
+    height: 100%;
+    width: 180px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+#main {
+    margin-left: 180px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+#nav li {
     background: #01afff;
     text-align: center;
     transform: rotateX(51deg) rotateZ(43deg);
@@ -13,18 +29,18 @@ li {
     .4s ease-in-out box-shadow;
 }
 
-ul {
+#nav ul {
     list-style: none;
 }
 
-li:hover {
+#nav li:hover {
     transform: translate3d(0px, -16px, 0px) rotateX(51deg) rotateZ(53deg);
     box-shadow: 1px 1px 0 1px #f9f9fb,
     -1px 0 28px 0 rgba(34, 33, 81, 0.01),
     54px 54px 28px -10px rgba(34, 33, 81, 0.15);
 }
 
-li a {
+#nav li a {
     font-family: "Helvetica", serif;
     font-weight: 1000;
     text-decoration: none;
