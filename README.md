@@ -1,3 +1,3 @@
 # b4ckf1sh.github.io
 
-My own protfolio website
+A guide to settings in MechWarrior: Online
